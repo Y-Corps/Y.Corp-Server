@@ -1,10 +1,10 @@
 <html>
 <head>
-</head>
-<body>
-  <h1>hello</h1>
 <script>
   document.write("world")
 </script>
+</head>
+<body>
+  <h1>hello</h1>
 </body>
 </html>
