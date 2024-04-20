@@ -3,6 +3,8 @@
 </head>
 <body>
   <h1>hello</h1>
-<script></script>
+<script>
+  document.write("world")
+</script>
 </body>
 </html>
