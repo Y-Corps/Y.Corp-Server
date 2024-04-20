@@ -1,8 +1,10 @@
 <html>
 <head>
-<script>
-  document.write("world")
-</script>
+  <style>
+    h1 {
+      color: #DFD0B8;
+      }
+  </style>
 </head>
 <body>
   <h1>hello</h1>
