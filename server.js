@@ -5,12 +5,12 @@ io.on("connection", (socket) => {
 
     function emitCurrentTime() {
         const currentTime = { "time": new Date().toLocaleTimeString() };
-        console.log("Current Time:", currentTime); // Log current time on the server console
+        // console.log("Current Time:", currentTime); // Log current time on the server console
         io.emit("time", currentTime); // Emit current time to all connected clients
     }
     
     // Emit current time every second
-    setInterval(emitCurrentTime, 2000);
+    setInterval(emitCurrentTime, 500);
     console.log(`User ID: ${socket.id} connected`);
 
     socket.on("mq135Data", (data) => {
