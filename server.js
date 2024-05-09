@@ -54,7 +54,7 @@ io.on("connection", (socket) => {
     socket.on("isLightOn", (state) => {
         // console.log(`User ID: ${socket.id} connected IsLightON`);
         console.log("Light is: ", state);
-        // io.emit("isLightOn", state);
+        io.emit("isLightOn", state);
     });
 
     socket.on("isFanOn", (state) => {
