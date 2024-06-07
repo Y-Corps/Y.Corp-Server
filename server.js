@@ -32,7 +32,7 @@ io.on("connection", (socket) => {
     socket.on("DTHThreshold", (data) => {
         // console.log(`User ID: ${socket.id} connected`);
         console.log("Received DHTThreshold:", data);
-        io.emit("DHTThreshold", data);
+        io.emit("DTHThreshold", data);
     });
     socket.on("MQ135Threshold", (data) => {
         // console.log(`User ID: ${socket.id} connected`);
